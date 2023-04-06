@@ -42,3 +42,8 @@ canvas.emscripten {
     border: 0px none;
     background-color: black;
 }
+/* the canvas *must not* have any border or padding, or mouse coords will be wrong */
+canvas.emscripten {
+    border: 0px none;
+    background-color: black;
+}
